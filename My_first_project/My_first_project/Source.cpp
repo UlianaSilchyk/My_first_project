@@ -8,6 +8,12 @@ int Cube(int x)
 	return x * x * x;
 }
 
+void Show_cub(int x)
+{
+	
+	cout << x << " в куб≥ = " << Cube(x) << endl;
+}
+
 
 int main()
 {
@@ -18,7 +24,7 @@ int main()
 	cout << "¬вед≥ть число. €ке необх≥дно п≥днести до кубу" << endl;
 	cin >> x;
 	cout << endl;
-	Cube(x);
+	Show_cub(x);
 
 
 	return 0;
